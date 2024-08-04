@@ -14,7 +14,7 @@ const Imagegen = () => {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
-          Authorization: "Bearer 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",
+          Authorization: "Bearer token",
           "User-Agent": "Chrome",
         },
         body: JSON.stringify({
